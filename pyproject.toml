@@ -7,7 +7,7 @@ name = "metoffice-radar-viewer"
 version = "0.1.0"
 description = "High-detail UK Met Office radar viewer with Tkinter and Cartopy"
 readme = "README.md"
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Gdev45" }]
 license = { text = "MIT" }
 requires-python = ">=3.9"
 
@@ -20,4 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-metoffice-radar = "metoffice_radar.app:main"
+metoffice-radar = "app:main"
+
+[tool.setuptools]
+py-modules = ["app"]
