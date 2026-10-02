@@ -703,7 +703,10 @@ class RadarViewer:
 # EXECUTION ENTRY POINT
 # ============================================================
 
-if __name__ == "__main__":
+def main():
     root = TkinterDnD.Tk()
     app = RadarViewer(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    main()
