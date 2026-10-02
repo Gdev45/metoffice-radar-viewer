@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-metoffice-radar = "app:main"
+metoffice-radar-file-viewer = "app:main"
 
 [tool.setuptools]
 py-modules = ["app"]
