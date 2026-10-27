@@ -1,4 +1,4 @@
-# Met Office Radar Viewer
+# Non-Official Met Office Radar Viewer
 
 A standalone desktop viewer for UK Met Office radar files (`.tar`, `.dat.gz`, `.pal`).
 
